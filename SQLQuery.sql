@@ -15,8 +15,6 @@ SELECT Store_ID, Product_ID, Product_Category, Store_Location, SUM(Units) AS [Un
 FROM [Sales Clean]
 GROUP BY Store_ID, Product_ID, Product_Category, Store_Location;
 */
-DROP VIEW [Sales Clean];
-
 
 SELECT * FROM Products;
 
